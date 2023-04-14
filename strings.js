@@ -1,0 +1,21 @@
+let nombre = "Juan";
+let apellido = "Pérez";
+let estudiante = nombre + " " + apellido;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numLetras = nombre.length + apellido.length;
+let primeraLetra = nombre.charAt(nombre.length - 4);
+let ultimaLetra = apellido.charAt(apellido.length - 1);
+let estudianteSinEspacios = estudiante.replace(/\s/g, '');
+let contieneNombre = estudiante.includes(nombre);
+
+console.log(nombre);
+console.log(apellido);
+console.log(estudiante);
+console.log(estudianteMayus);
+console.log(estudianteMinus);
+console.log(`El número de letras de la cadena "estudiante" es: ${numLetras}`);
+console.log(primeraLetra);
+console.log(ultimaLetra);
+console.log(estudianteSinEspacios);
+console.log(contieneNombre);
